@@ -1,0 +1,10 @@
+version=1
+id=2830570280
+title=You drive, I sleep
+description=[h3]Be able to sleep while someone else is driving.[/h3]
+description=Only to be used for long romantic road-trips with the bros.
+description=
+description=[h2][b]This is a compliment-mod for mods that
+description=allow for quick independent sleeping in MP.[/b][/h2]
+tags=Build 41;Balance;Multiplayer;Realistic;Vehicles
+visibility=public
