@@ -4,7 +4,6 @@ require "Vehicles/ISUI/ISVehicleMenu"
 local ISVehicleMenu_onSleep = ISVehicleMenu.onSleep
 ---@param playerObj IsoPlayer|IsoGameCharacter|IsoMovingObject|IsoObject
 function ISVehicleMenu.onSleep(playerObj, vehicle)
-	ISVehicleMenu_onSleep(playerObj, vehicle)
 	if not playerObj:isAsleep() and not vehicle:isDriver(playerObj) then
 		local playerNum = playerObj:getPlayerNum()
 		local modal = ISModalDialog:new(0,0, 250, 150, getText("IGUI_ConfirmSleep"), true, nil, ISVehicleMenu.onConfirmSleep, playerNum, playerNum, nil);
@@ -13,6 +12,8 @@ function ISVehicleMenu.onSleep(playerObj, vehicle)
 		if JoypadState.players[playerNum+1] then
 			setJoypadFocus(playerNum, modal)
 		end
+	else
+		ISVehicleMenu_onSleep(playerObj, vehicle)
 	end
 end
 
