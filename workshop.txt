@@ -4,7 +4,7 @@ title=You drive, I sleep
 description=[h3]Be able to sleep while someone else is driving.[/h3]
 description=Only to be used for long romantic road-trips with the bros.
 description=
-description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url] [url=https://www.patreon.com/bePatron?u=17239488][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/patreon.png[/img][/url]
+description=[url=https://ko-fi.com/chuckleberryfinn][img]https://raw.githubusercontent.com/ChuckTheSheep/chuckImages/main/kofi.png[/img][/url]
 description=
 description=
 description=[h2][b]This is a compliment-mod for mods that
