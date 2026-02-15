@@ -11,3 +11,9 @@ link4 = Github = https://steamcommunity.com/linkfilter/?u=https://github.com/Chu
 [ 2/11/26 ]
 - Forgot to move the code into the actual folder that makes the code do stuff. Oops.
 [ ------ ]
+
+[ 2/15/26 ]
+- Added missing B42 folder (not sure how it got removed.)
+- Added icon for modlist.
+- Reminder: I removed the check on drivers, so you can sleep while driving.
+[ ------ ]
